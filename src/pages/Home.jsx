@@ -8,7 +8,9 @@ import Section5 from '../components/Section5'
 import Partners from '../components/Partners'
 import Daala from '../components/Daala'
 import Faqs from '../components/Faqs'
-import Blogs from '../components/Blogs'
+import Shopping from '../components/Shopping'
+import Blog from '../components/Blog'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -22,7 +24,9 @@ const Home = () => {
         <Partners />
         <Daala />
         <Faqs />
-        <Blogs />
+        <Shopping  />
+        <Blog />
+        <Footer />
     </div>
   )
 }

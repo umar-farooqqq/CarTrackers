@@ -1,23 +1,23 @@
 import React from "react";
 
-const Blogs = () => {
+const Shopping = () => {
   return (
     <div className="bg-[#FF8713] w-full py-12 relative overflow-hidden">
       {/* Left circular logo pattern */}
-      <div className="absolute left-0 top-1/2 -translate-y-1/2 translate-x-1/2 -scale-y-100">
+      <div className="absolute left-0 top-1/2 -translate-y-1/4 -translate-x-16 -scale-y-100">
         <img
           src="/logolarge.png"
           alt="logolarge"
-          className="w-80 h-80 object-contain"
+          className="w-72 h-72 object-contain"
         />
       </div>
 
       {/* Right circular logo pattern */}
-      <div className="absolute right-0 top-1/2 -translate-y-44 translate-x-16">
+      <div className="absolute right-0 top-1/2 -translate-y-52 translate-x-16">
         <img
           src="/logolarge.png"
           alt="logolarge"
-          className="w-72 h-56 object-contain"
+          className="w-72 h-72 object-contain"
         />
       </div>
 
@@ -36,4 +36,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Shopping;
