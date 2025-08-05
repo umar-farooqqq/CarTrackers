@@ -1,10 +1,10 @@
 import React from "react";
 
 const HowItWorks = () => (
-  <div className="bg-blue-100 py-12">
+  <div className="absolute bottom-0 left-0 right-0 transform translate-y-1/3 px-8 lg:px-16 xl:px-64">
     {/* How It Works Section */}
-    <div className="max-w-4xl mx-auto mb-16">
-      <div className="bg-yellow-100 rounded-xl shadow-md py-8 px-6">
+    <div className="max-w-4xl mx-auto">
+      <div className="bg-white rounded-xl shadow-lg py-8 px-6">
         <h1 className="text-4xl text-orange-500 font-bold text-center mb-4">
           How It Works
         </h1>
@@ -50,9 +50,6 @@ const HowItWorks = () => (
         </div>
       </div>
     </div>
-
-    {/* 10 Minute Video Appraisal Section */}
-   
   </div>
 );
 

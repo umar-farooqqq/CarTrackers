@@ -2,7 +2,7 @@ import React from 'react'
 
 const Videocall = () => {
   return (
-    <div className='bg-green-100 py-12'>
+    <div className='bg-white py-12 pt-12 mb-4'>
          <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
       {/* Left: Images */}
       <div className="flex gap-4 w-1/2">

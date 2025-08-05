@@ -1,8 +1,9 @@
 import React from "react";
+import HowItWorks from "./Howitworks";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-screen mb-32">
       {/* Background Image */}
       <img
         src="/car.png"
@@ -11,7 +12,7 @@ const Hero = () => {
       />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+      {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
 
       {/* Content Container */}
       <div className="absolute inset-0 flex items-center justify-between px-8 lg:px-16 xl:px-64 pb-[180px]">
@@ -59,6 +60,7 @@ const Hero = () => {
           </form>
         </div>
       </div>
+      <HowItWorks />
     </div>
   );
 };
