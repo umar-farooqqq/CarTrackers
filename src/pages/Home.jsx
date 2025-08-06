@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Videocall from '../components/Videocall'
 import Understand from '../components/Understand'
+import Getpaid from '../components/Getpaid'
 import Rating from '../components/Rating'
 import Section5 from '../components/Section5'
 import Partners from '../components/Partners'
@@ -16,9 +17,10 @@ const Home = () => {
   return (
     <div className='w-full min-h-screen'>
         <Navbar />
-        <Hero />
+        <Hero endpoint1={`THE NEW WAY TO SELL YOUR CAR`} imgpoint2={`/car.png`} />
         <Videocall />
         <Understand />
+        <Getpaid />
         <Rating />
         <Section5 />
         <Partners />

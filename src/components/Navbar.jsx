@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -12,47 +13,101 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="hidden md:flex items-center space-x-5 pl-20 text-white text-sm">
           <li>
-            <a
-              href="#"
-              className="text-orange-500 hover:text-orange-400 transition-colors"
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange-500 font-semibold border-b-4 border-orange-500 pb-6 transition-colors"
+                  : "hover:text-gray-300 transition-colors"
+              }
             >
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <NavLink
+              to="/SellyourCar"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange-500 font-semibold border-b-4 border-orange-500 pb-6 transition-colors"
+                  : "hover:text-gray-300 transition-colors"
+              }
+            >
               Sell your car
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <NavLink
+              to="/Apply"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange-500 font-semibold border-b-4 border-orange-500 pb-6 transition-colors"
+                  : "hover:text-gray-300 transition-colors"
+              }
+            >
               Apply for a New Car
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <NavLink
+              to="/Beatoffer"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange-500 font-semibold border-b-4 border-orange-500 pb-6 transition-colors"
+                  : "hover:text-gray-300 transition-colors"
+              }
+            >
               Beat my Offer
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <NavLink
+              to="/Aboutus"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange-500 font-semibold border-b-4 border-orange-500 pb-6 transition-colors"
+                  : "hover:text-gray-300 transition-colors"
+              }
+            >
               About us
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <NavLink
+              to="/Faqs"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange-500 font-semibold border-b-4 border-orange-500 pb-6 transition-colors"
+                  : "hover:text-gray-300 transition-colors"
+              }
+            >
               Faq
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <NavLink
+              to="/Kelley"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange-500 font-semibold border-b-4 border-orange-500 pb-6 transition-colors"
+                  : "hover:text-gray-300 transition-colors"
+              }
+            >
               Kelley Blue Book
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <NavLink
+              to="/Media"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-orange-500 font-semibold border-b-4 border-orange-500 pb-6 transition-colors"
+                  : "hover:text-gray-300 transition-colors"
+              }
+            >
               Media
-            </a>
+            </NavLink>
           </li>
         </ul>
 
