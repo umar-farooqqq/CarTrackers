@@ -1,16 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Footer from '../components/Footer'
-import Understand from '../components/Understand'
 
 const Media = () => {
   return (
     <div>
         <Navbar />
-        <Hero />
-        <Understand />
-        <Footer />
+        <div className="flex items-center justify-center min-h-screen w-full bg-slate-500">
+        <span className="text-4xl font-semibold text-center">
+          Page For <br /> Media
+        </span>
+      </div>
     </div>
   )
 }

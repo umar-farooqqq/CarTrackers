@@ -6,6 +6,7 @@ import Videocall from '../components/Videocall'
 import Daala from '../components/Daala'
 import Rating from '../components/Rating'
 import Faqs from '../components/Faqs'
+import SellCar from '../components/SellCar'
 
 const SellyourCar = () => {
   return (
@@ -16,6 +17,7 @@ const SellyourCar = () => {
         <Daala />
         <Rating />
         <Faqs />
+        <SellCar />
         <Footer />
     </div>
   )

@@ -1,18 +1,17 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Footer from '../components/Footer'
-import Partners from '../components/Partners'
+import React from "react";
+import Navbar from "../components/Navbar";
 
 const Beatoffer = () => {
   return (
     <div>
-        <Navbar />
-        <Hero />
-        <Partners />
-        <Footer />
+      <Navbar />
+      <div className="flex items-center justify-center min-h-screen w-full bg-slate-500">
+        <span className="text-4xl font-semibold text-center">
+          Page For <br /> Beat My Offer
+        </span>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Beatoffer
+export default Beatoffer;
