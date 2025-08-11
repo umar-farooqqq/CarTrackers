@@ -21,21 +21,31 @@ const Application = () => {
             <label className="block text-sm font-semibold mb-1">
               Email<span className="text-red-500">*</span>
             </label>
-            <input
-              type="email"
-              placeholder="example@example.com"
-              className="w-full border border-gray-300 rounded px-3 py-2 bg-white"
-            />
+            <div className="relative">
+              <span className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center pointer-events-none">
+                <img src="/mail.svg" alt="" className="w-4 h-4" />
+              </span>
+              <input
+                type="email"
+                placeholder="Email"
+                className="w-full border border-gray-300 rounded pl-10 pr-3 py-2 bg-white"
+              />
+            </div>
           </div>
           <div>
             <label className="block text-sm font-semibold mb-1">
               Phone number<span className="text-red-500">*</span>
             </label>
-            <input
-              type="tel"
-              placeholder="(000) 000 0000"
-              className="w-full border border-gray-300 rounded px-3 py-2 bg-white"
-            />
+            <div className="relative">
+              <span className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center pointer-events-none">
+                <img src="/mail.svg" alt="" className="w-4 h-4" />
+              </span>
+              <input
+                type="tel"
+                placeholder="(000) 000 0000"
+                className="w-full border border-gray-300 rounded pl-10 pr-3 py-2 bg-white"
+              />
+            </div>
           </div>
         </div>
 
@@ -45,19 +55,29 @@ const Application = () => {
             <label className="block text-sm font-semibold mb-1">
               Name<span className="text-red-500">*</span>
             </label>
-            <input
-              type="text"
-              placeholder="First Name"
-              className="w-full border border-gray-300 rounded px-3 py-2 bg-white"
-            />
+            <div className="relative">
+              <span className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center pointer-events-none">
+                <img src="/user1.svg" alt="" className="w-4 h-4" />
+              </span>
+              <input
+                type="text"
+                placeholder="First Name"
+                className="w-full border border-gray-300 rounded pl-10 pr-3 py-2 bg-white"
+              />
+            </div>
           </div>
           <div>
             <label className="block text-sm font-semibold mb-1">&nbsp;</label>
-            <input
-              type="text"
-              placeholder="Last Name"
-              className="w-full border border-gray-300 rounded px-3 py-2 bg-white"
-            />
+            <div className="relative">
+              <span className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center pointer-events-none">
+                <img src="/user1.svg" alt="" className="w-4 h-4" />
+              </span>
+              <input
+                type="text"
+                placeholder="Last Name"
+                className="w-full border border-gray-300 rounded pl-10 pr-3 py-2 bg-white"
+              />
+            </div>
           </div>
         </div>
 
